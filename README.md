@@ -126,3 +126,61 @@ streamlit run frontend/streamlit_app.py
 Mari
 
 UPSC Domain Knowledge Co-Pilot Project
+
+
+## Local Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/sigmagirlmari1998-crypto/upsc-domain-knowledge-copilot.git
+cd upsc-domain-knowledge-copilot
+```
+
+### 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate:
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+### 5. Run the Application
+
+```bash
+streamlit run frontend/streamlit_app.py
+```
+
+### 6. Backend (Optional)
+
+Run FastAPI backend:
+
+```bash
+uvicorn backend.main:app --reload
+```
+
+API docs:
+
+```text
+http://localhost:8000/docs
+```
