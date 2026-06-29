@@ -8,6 +8,21 @@ The system allows users to upload study material, create document corpora, perfo
 
 ---
 
+## Live Demo
+
+### 🌐 Streamlit Application
+
+https://upsc-domain-knowledge-copilot.streamlit.app
+
+### 🎥 Project Demonstration
+
+https://youtu.be/_CtLfJBHCMo
+
+### 📊 Project Presentation
+
+https://1drv.ms/p/c/326ef60eccda9483/IQDhqaITE6LhTZigXjXJIA0yAc6LT0oLJqMCqcK9USx6ckQ?e=XJzCUI
+
+
 ## Features
 
 * User Authentication (Signup/Login)
